@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4wm-nN-16u">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Secand View Controller-->
+        <scene sceneID="2Ni-Ha-pbn">
+            <objects>
+                <viewController id="4wm-nN-16u" customClass="SecandViewController" customModule="TinderSwipeAnim" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V6G-hw-wn5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7B-cF-hgf" customClass="TinderSwipeAnimation" customModule="TinderSwipeAnimation">
+                                <rect key="frame" x="40" y="140" width="295" height="407"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1g1-zM-otQ" customClass="TinderSwipeAnimation" customModule="TinderSwipeAnimation">
+                                <rect key="frame" x="40" y="140" width="295" height="407"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1g1-zM-otQ" firstAttribute="top" secondItem="j0L-0o-MYo" secondAttribute="top" constant="120" id="29A-pw-fyy"/>
+                            <constraint firstItem="1g1-zM-otQ" firstAttribute="leading" secondItem="j0L-0o-MYo" secondAttribute="leading" constant="40" id="2az-hh-Hi4"/>
+                            <constraint firstItem="A7B-cF-hgf" firstAttribute="height" secondItem="1g1-zM-otQ" secondAttribute="height" id="TLK-fz-b9D"/>
+                            <constraint firstItem="j0L-0o-MYo" firstAttribute="bottom" secondItem="1g1-zM-otQ" secondAttribute="bottom" constant="120" id="atw-q1-Rv2"/>
+                            <constraint firstItem="j0L-0o-MYo" firstAttribute="trailing" secondItem="1g1-zM-otQ" secondAttribute="trailing" constant="40" id="fkR-hq-WHu"/>
+                            <constraint firstItem="A7B-cF-hgf" firstAttribute="top" secondItem="1g1-zM-otQ" secondAttribute="bottom" constant="-407" id="fke-QJ-Ahe"/>
+                            <constraint firstItem="A7B-cF-hgf" firstAttribute="leading" secondItem="1g1-zM-otQ" secondAttribute="trailing" constant="-295" id="saj-ZA-TCp"/>
+                            <constraint firstItem="A7B-cF-hgf" firstAttribute="width" secondItem="1g1-zM-otQ" secondAttribute="width" id="yVo-L7-3bc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="j0L-0o-MYo"/>
+                    </view>
+                    <connections>
+                        <outlet property="CardView" destination="1g1-zM-otQ" id="Yun-y4-zdd"/>
+                        <outlet property="SecandCardView" destination="A7B-cF-hgf" id="Fvz-X5-Wiw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="caA-L8-u12" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002" y="133"/>
+        </scene>
+    </scenes>
+</document>

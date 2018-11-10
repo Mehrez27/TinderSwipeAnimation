@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76AF9DD22192494D003BD6BD /* TinderSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF9DD12192494D003BD6BD /* TinderSwipe.swift */; };
+		76C41F012190D8DA0074802A /* SecandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C41F002190D8DA0074802A /* SecandViewController.swift */; };
 		76E39B27218E550900C36325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E39B26218E550900C36325 /* AppDelegate.swift */; };
-		76E39B29218E550900C36325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E39B28218E550900C36325 /* ViewController.swift */; };
 		76E39B2C218E550900C36325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E39B2A218E550900C36325 /* Main.storyboard */; };
 		76E39B2F218E550900C36325 /* TinderSwipeAnim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76E39B2D218E550900C36325 /* TinderSwipeAnim.xcdatamodeld */; };
 		76E39B31218E550900C36325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E39B30218E550900C36325 /* Assets.xcassets */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76AF9DD12192494D003BD6BD /* TinderSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipe.swift; sourceTree = "<group>"; };
+		76C41F002190D8DA0074802A /* SecandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecandViewController.swift; sourceTree = "<group>"; };
 		76E39B23218E550900C36325 /* TinderSwipeAnim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderSwipeAnim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E39B26218E550900C36325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76E39B28218E550900C36325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76E39B2B218E550900C36325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76E39B2E218E550900C36325 /* TinderSwipeAnim.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinderSwipeAnim.xcdatamodel; sourceTree = "<group>"; };
 		76E39B30218E550900C36325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +78,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		762DBD1C219635FC0046A9C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76AF9DD02192492B003BD6BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76AF9DD12192494D003BD6BD /* TinderSwipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76AF9DD321924B66003BD6BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76C41F002190D8DA0074802A /* SecandViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		76AF9DD421924B80003BD6BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76E39B2A218E550900C36325 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		76E39B1A218E550900C36325 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,7 @@
 				76E39B3D218E550900C36325 /* TinderSwipeAnimTests */,
 				76E39B48218E550900C36325 /* TinderSwipeAnimUITests */,
 				76E39B24218E550900C36325 /* Products */,
+				762DBD1C219635FC0046A9C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +133,10 @@
 		76E39B25218E550900C36325 /* TinderSwipeAnim */ = {
 			isa = PBXGroup;
 			children = (
+				76AF9DD421924B80003BD6BD /* Views */,
+				76AF9DD321924B66003BD6BD /* Controllers */,
+				76AF9DD02192492B003BD6BD /* Models */,
 				76E39B26218E550900C36325 /* AppDelegate.swift */,
-				76E39B28218E550900C36325 /* ViewController.swift */,
-				76E39B2A218E550900C36325 /* Main.storyboard */,
 				76E39B30218E550900C36325 /* Assets.xcassets */,
 				76E39B32218E550900C36325 /* LaunchScreen.storyboard */,
 				76E39B35218E550900C36325 /* Info.plist */,
@@ -262,8 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E39B29218E550900C36325 /* ViewController.swift in Sources */,
+				76C41F012190D8DA0074802A /* SecandViewController.swift in Sources */,
 				76E39B2F218E550900C36325 /* TinderSwipeAnim.xcdatamodeld in Sources */,
+				76AF9DD22192494D003BD6BD /* TinderSwipe.swift in Sources */,
 				76E39B27218E550900C36325 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,7 +405,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -420,6 +456,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -432,6 +469,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/macbookproretina/Desktop/TinderSwipeAnim,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TinderSwipeAnim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.TinderSwipeAnim;
@@ -447,6 +488,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/macbookproretina/Desktop/TinderSwipeAnim,
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TinderSwipeAnim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.TinderSwipeAnim;
