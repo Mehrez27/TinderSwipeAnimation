@@ -4,6 +4,9 @@
 TinderSwipeAnimation is a clone written in swift to simplify the implementation of tinder swipe animation.
 you can see a demo example by launching the demo project called "TinderSwipeAnimDemo"
 
+# Screenshots
+
+<img width="373" alt="capture d ecran 2018-11-11 a 17 34 35" src="https://user-images.githubusercontent.com/39087448/48315621-ddb31d80-e5d8-11e8-839f-a10ca01c32a4.png">
 
 # Installation
 
