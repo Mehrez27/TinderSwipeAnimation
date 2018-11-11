@@ -8,6 +8,7 @@ you can see a demo example by launching the demo project called "TinderSwipeAnim
 
 <img width="370" alt="capture d ecran 2018-11-11 a 17 34 35" src="https://user-images.githubusercontent.com/39087448/48315621-ddb31d80-e5d8-11e8-839f-a10ca01c32a4.png"> 
 <img width="370" alt="capture d ecran 2018-11-11 a 17 37 01" src="https://user-images.githubusercontent.com/39087448/48315641-0fc47f80-e5d9-11e8-968e-799d5c3f6a74.png">
+<img width="370" alt="capture d ecran 2018-11-11 a 17 37 31" src="https://user-images.githubusercontent.com/39087448/48315663-66ca5480-e5d9-11e8-82f7-204676f8fc42.png">
 
 
 
