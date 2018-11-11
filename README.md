@@ -26,18 +26,24 @@ add a view to your storyboard and change her class and module to "TinderSwipeAni
 
 
 in the beginning of  your viewcontroller add the code below:
+```
 
 import UIKit
 
 import TinderSwipeAnimation
 
+```
+
 in your viewDidLoad function add the code below:
+```
 
 CardView.setTitle("Happy Man")
 
 CardView.setTitleColor(UIColor.white)
 
 CardView.setImage(nameOfYourImage)
+
+```
 
 for more details of how to use TinderSwipeAnimation you can open the demo project called "TinderSwipeAnimDemo"
 
