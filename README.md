@@ -16,6 +16,8 @@ you can see a demo example by launching the demo project called "TinderSwipeAnim
 To install TinderSwipeAnimation you just need to drag and drop TinderSwipeAnimation.framework to "Embedded Binaries" or/and to 
 "linked Framework and Libraries"
 
+<img width="564" alt="capture d ecran 2018-11-11 a 18 03 00" src="https://user-images.githubusercontent.com/39087448/48315885-2ddfaf00-e5dc-11e8-8176-99cc2a19c282.png">
+
 
 # Usage
 
