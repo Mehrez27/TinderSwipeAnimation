@@ -24,6 +24,7 @@ To install TinderSwipeAnimation you just need to drag and drop TinderSwipeAnimat
 
 add a view to your storyboard and change her class and module to "TinderSwipeAnimation"
 
+<img width="256" alt="capture d ecran 2018-11-11 a 18 05 12" src="https://user-images.githubusercontent.com/39087448/48315899-6e3f2d00-e5dc-11e8-8cd9-f3cd31beeabc.png">
 
 in the beginning of  your viewcontroller add the code below:
 ```
