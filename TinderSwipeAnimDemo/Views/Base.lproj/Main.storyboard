@@ -13,7 +13,7 @@
         <!--Secand View Controller-->
         <scene sceneID="2Ni-Ha-pbn">
             <objects>
-                <viewController id="4wm-nN-16u" customClass="SecandViewController" customModule="TinderSwipeAnim" sceneMemberID="viewController">
+                <viewController id="4wm-nN-16u" customClass="SecandViewController" customModule="TinderSwipeAnimDemo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V6G-hw-wn5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,12 +31,12 @@
                         <constraints>
                             <constraint firstItem="1g1-zM-otQ" firstAttribute="top" secondItem="j0L-0o-MYo" secondAttribute="top" constant="120" id="29A-pw-fyy"/>
                             <constraint firstItem="1g1-zM-otQ" firstAttribute="leading" secondItem="j0L-0o-MYo" secondAttribute="leading" constant="40" id="2az-hh-Hi4"/>
-                            <constraint firstItem="A7B-cF-hgf" firstAttribute="height" secondItem="1g1-zM-otQ" secondAttribute="height" id="TLK-fz-b9D"/>
+                            <constraint firstItem="j0L-0o-MYo" firstAttribute="bottom" secondItem="A7B-cF-hgf" secondAttribute="bottom" constant="120" id="CKt-Ku-eg8"/>
+                            <constraint firstItem="A7B-cF-hgf" firstAttribute="top" secondItem="j0L-0o-MYo" secondAttribute="top" constant="120" id="F7q-9D-fyY"/>
+                            <constraint firstItem="j0L-0o-MYo" firstAttribute="trailing" secondItem="A7B-cF-hgf" secondAttribute="trailing" constant="40" id="TAY-G4-GWX"/>
                             <constraint firstItem="j0L-0o-MYo" firstAttribute="bottom" secondItem="1g1-zM-otQ" secondAttribute="bottom" constant="120" id="atw-q1-Rv2"/>
+                            <constraint firstItem="A7B-cF-hgf" firstAttribute="leading" secondItem="j0L-0o-MYo" secondAttribute="leading" constant="40" id="eHA-Mx-Ipe"/>
                             <constraint firstItem="j0L-0o-MYo" firstAttribute="trailing" secondItem="1g1-zM-otQ" secondAttribute="trailing" constant="40" id="fkR-hq-WHu"/>
-                            <constraint firstItem="A7B-cF-hgf" firstAttribute="top" secondItem="1g1-zM-otQ" secondAttribute="bottom" constant="-407" id="fke-QJ-Ahe"/>
-                            <constraint firstItem="A7B-cF-hgf" firstAttribute="leading" secondItem="1g1-zM-otQ" secondAttribute="trailing" constant="-295" id="saj-ZA-TCp"/>
-                            <constraint firstItem="A7B-cF-hgf" firstAttribute="width" secondItem="1g1-zM-otQ" secondAttribute="width" id="yVo-L7-3bc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j0L-0o-MYo"/>
                     </view>

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		76AF9DD22192494D003BD6BD /* TinderSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF9DD12192494D003BD6BD /* TinderSwipe.swift */; };
 		76C41F012190D8DA0074802A /* SecandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C41F002190D8DA0074802A /* SecandViewController.swift */; };
+		76DC924821972AC0000DFCCB /* TinderSwipeAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DC924521972AB2000DFCCB /* TinderSwipeAnimation.framework */; };
+		76DC924921972AC0000DFCCB /* TinderSwipeAnimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76DC924521972AB2000DFCCB /* TinderSwipeAnimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		76E39B27218E550900C36325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E39B26218E550900C36325 /* AppDelegate.swift */; };
 		76E39B2C218E550900C36325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E39B2A218E550900C36325 /* Main.storyboard */; };
 		76E39B2F218E550900C36325 /* TinderSwipeAnim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 76E39B2D218E550900C36325 /* TinderSwipeAnim.xcdatamodeld */; };
@@ -19,6 +21,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		76DC924421972AB2000DFCCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DC923F21972AB1000DFCCB /* TinderSwipeAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76AF9DDF21924D6F003BD6BD;
+			remoteInfo = TinderSwipeAnimation;
+		};
+		76DC924621972AB2000DFCCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DC923F21972AB1000DFCCB /* TinderSwipeAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 76AF9DE821924D6F003BD6BD;
+			remoteInfo = TinderSwipeAnimationTests;
+		};
+		76DC924A21972AC0000DFCCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DC923F21972AB1000DFCCB /* TinderSwipeAnimation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AF9DDE21924D6F003BD6BD;
+			remoteInfo = TinderSwipeAnimation;
+		};
 		76E39B3B218E550900C36325 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 76E39B1B218E550900C36325 /* Project object */;
@@ -35,20 +58,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		76DC924C21972AC1000DFCCB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				76DC924921972AC0000DFCCB /* TinderSwipeAnimation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		76AF9DD12192494D003BD6BD /* TinderSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipe.swift; sourceTree = "<group>"; };
 		76C41F002190D8DA0074802A /* SecandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecandViewController.swift; sourceTree = "<group>"; };
-		76E39B23218E550900C36325 /* TinderSwipeAnim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderSwipeAnim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DC923F21972AB1000DFCCB /* TinderSwipeAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TinderSwipeAnimation.xcodeproj; path = ../TinderSwipeAnimation/TinderSwipeAnimation.xcodeproj; sourceTree = "<group>"; };
+		76E39B23218E550900C36325 /* TinderSwipeAnimDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderSwipeAnimDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E39B26218E550900C36325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76E39B2B218E550900C36325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76E39B2E218E550900C36325 /* TinderSwipeAnim.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinderSwipeAnim.xcdatamodel; sourceTree = "<group>"; };
 		76E39B30218E550900C36325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76E39B33218E550900C36325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76E39B35218E550900C36325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76E39B3A218E550900C36325 /* TinderSwipeAnimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSwipeAnimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E39B3A218E550900C36325 /* TinderSwipeAnimDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSwipeAnimDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E39B3E218E550900C36325 /* TinderSwipeAnimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipeAnimTests.swift; sourceTree = "<group>"; };
 		76E39B40218E550900C36325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76E39B45218E550900C36325 /* TinderSwipeAnimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSwipeAnimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E39B45218E550900C36325 /* TinderSwipeAnimDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderSwipeAnimDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E39B49218E550900C36325 /* TinderSwipeAnimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSwipeAnimUITests.swift; sourceTree = "<group>"; };
 		76E39B4B218E550900C36325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DC924821972AC0000DFCCB /* TinderSwipeAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,10 +148,20 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		76DC924021972AB1000DFCCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DC924521972AB2000DFCCB /* TinderSwipeAnimation.framework */,
+				76DC924721972AB2000DFCCB /* TinderSwipeAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		76E39B1A218E550900C36325 = {
 			isa = PBXGroup;
 			children = (
-				76E39B25218E550900C36325 /* TinderSwipeAnim */,
+				76DC923F21972AB1000DFCCB /* TinderSwipeAnimation.xcodeproj */,
+				76E39B25218E550900C36325 /* TinderSwipeAnimDemo */,
 				76E39B3D218E550900C36325 /* TinderSwipeAnimTests */,
 				76E39B48218E550900C36325 /* TinderSwipeAnimUITests */,
 				76E39B24218E550900C36325 /* Products */,
@@ -123,14 +172,14 @@
 		76E39B24218E550900C36325 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76E39B23218E550900C36325 /* TinderSwipeAnim.app */,
-				76E39B3A218E550900C36325 /* TinderSwipeAnimTests.xctest */,
-				76E39B45218E550900C36325 /* TinderSwipeAnimUITests.xctest */,
+				76E39B23218E550900C36325 /* TinderSwipeAnimDemo.app */,
+				76E39B3A218E550900C36325 /* TinderSwipeAnimDemoTests.xctest */,
+				76E39B45218E550900C36325 /* TinderSwipeAnimDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76E39B25218E550900C36325 /* TinderSwipeAnim */ = {
+		76E39B25218E550900C36325 /* TinderSwipeAnimDemo */ = {
 			isa = PBXGroup;
 			children = (
 				76AF9DD421924B80003BD6BD /* Views */,
@@ -142,7 +191,7 @@
 				76E39B35218E550900C36325 /* Info.plist */,
 				76E39B2D218E550900C36325 /* TinderSwipeAnim.xcdatamodeld */,
 			);
-			path = TinderSwipeAnim;
+			path = TinderSwipeAnimDemo;
 			sourceTree = "<group>";
 		};
 		76E39B3D218E550900C36325 /* TinderSwipeAnimTests */ = {
@@ -166,26 +215,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		76E39B22218E550900C36325 /* TinderSwipeAnim */ = {
+		76E39B22218E550900C36325 /* TinderSwipeAnimDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76E39B4E218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnim" */;
+			buildConfigurationList = 76E39B4E218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimDemo" */;
 			buildPhases = (
 				76E39B1F218E550900C36325 /* Sources */,
 				76E39B20218E550900C36325 /* Frameworks */,
 				76E39B21218E550900C36325 /* Resources */,
+				76DC924C21972AC1000DFCCB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				76DC924B21972AC0000DFCCB /* PBXTargetDependency */,
 			);
-			name = TinderSwipeAnim;
+			name = TinderSwipeAnimDemo;
 			productName = TinderSwipeAnim;
-			productReference = 76E39B23218E550900C36325 /* TinderSwipeAnim.app */;
+			productReference = 76E39B23218E550900C36325 /* TinderSwipeAnimDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		76E39B39218E550900C36325 /* TinderSwipeAnimTests */ = {
+		76E39B39218E550900C36325 /* TinderSwipeAnimDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76E39B51218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimTests" */;
+			buildConfigurationList = 76E39B51218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimDemoTests" */;
 			buildPhases = (
 				76E39B36218E550900C36325 /* Sources */,
 				76E39B37218E550900C36325 /* Frameworks */,
@@ -196,14 +247,14 @@
 			dependencies = (
 				76E39B3C218E550900C36325 /* PBXTargetDependency */,
 			);
-			name = TinderSwipeAnimTests;
+			name = TinderSwipeAnimDemoTests;
 			productName = TinderSwipeAnimTests;
-			productReference = 76E39B3A218E550900C36325 /* TinderSwipeAnimTests.xctest */;
+			productReference = 76E39B3A218E550900C36325 /* TinderSwipeAnimDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		76E39B44218E550900C36325 /* TinderSwipeAnimUITests */ = {
+		76E39B44218E550900C36325 /* TinderSwipeAnimDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76E39B54218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimUITests" */;
+			buildConfigurationList = 76E39B54218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimDemoUITests" */;
 			buildPhases = (
 				76E39B41218E550900C36325 /* Sources */,
 				76E39B42218E550900C36325 /* Frameworks */,
@@ -214,9 +265,9 @@
 			dependencies = (
 				76E39B47218E550900C36325 /* PBXTargetDependency */,
 			);
-			name = TinderSwipeAnimUITests;
+			name = TinderSwipeAnimDemoUITests;
 			productName = TinderSwipeAnimUITests;
-			productReference = 76E39B45218E550900C36325 /* TinderSwipeAnimUITests.xctest */;
+			productReference = 76E39B45218E550900C36325 /* TinderSwipeAnimDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +296,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 76E39B1E218E550900C36325 /* Build configuration list for PBXProject "TinderSwipeAnim" */;
+			buildConfigurationList = 76E39B1E218E550900C36325 /* Build configuration list for PBXProject "TinderSwipeAnimDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -256,14 +307,37 @@
 			mainGroup = 76E39B1A218E550900C36325;
 			productRefGroup = 76E39B24218E550900C36325 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 76DC924021972AB1000DFCCB /* Products */;
+					ProjectRef = 76DC923F21972AB1000DFCCB /* TinderSwipeAnimation.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				76E39B22218E550900C36325 /* TinderSwipeAnim */,
-				76E39B39218E550900C36325 /* TinderSwipeAnimTests */,
-				76E39B44218E550900C36325 /* TinderSwipeAnimUITests */,
+				76E39B22218E550900C36325 /* TinderSwipeAnimDemo */,
+				76E39B39218E550900C36325 /* TinderSwipeAnimDemoTests */,
+				76E39B44218E550900C36325 /* TinderSwipeAnimDemoUITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		76DC924521972AB2000DFCCB /* TinderSwipeAnimation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TinderSwipeAnimation.framework;
+			remoteRef = 76DC924421972AB2000DFCCB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		76DC924721972AB2000DFCCB /* TinderSwipeAnimationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TinderSwipeAnimationTests.xctest;
+			remoteRef = 76DC924621972AB2000DFCCB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		76E39B21218E550900C36325 /* Resources */ = {
@@ -323,14 +397,19 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		76DC924B21972AC0000DFCCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinderSwipeAnimation;
+			targetProxy = 76DC924A21972AC0000DFCCB /* PBXContainerItemProxy */;
+		};
 		76E39B3C218E550900C36325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76E39B22218E550900C36325 /* TinderSwipeAnim */;
+			target = 76E39B22218E550900C36325 /* TinderSwipeAnimDemo */;
 			targetProxy = 76E39B3B218E550900C36325 /* PBXContainerItemProxy */;
 		};
 		76E39B47218E550900C36325 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76E39B22218E550900C36325 /* TinderSwipeAnim */;
+			target = 76E39B22218E550900C36325 /* TinderSwipeAnimDemo */;
 			targetProxy = 76E39B46218E550900C36325 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -466,6 +545,7 @@
 		76E39B4F218E550900C36325 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
@@ -473,9 +553,9 @@
 					/Users/macbookproretina/Desktop/TinderSwipeAnim,
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = TinderSwipeAnim/Info.plist;
+				INFOPLIST_FILE = TinderSwipeAnimDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.TinderSwipeAnim;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TinderSwipeAnimDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,6 +565,7 @@
 		76E39B50218E550900C36325 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WG5JPDZ522;
@@ -492,9 +573,9 @@
 					/Users/macbookproretina/Desktop/TinderSwipeAnim,
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = TinderSwipeAnim/Info.plist;
+				INFOPLIST_FILE = TinderSwipeAnimDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.TinderSwipeAnim;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TinderSwipeAnimDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,7 +595,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderSwipeAnim.app/TinderSwipeAnim";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderSwipeAnimDemo.app/TinderSwipeAnimDemo";
 			};
 			name = Debug;
 		};
@@ -531,7 +612,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderSwipeAnim.app/TinderSwipeAnim";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinderSwipeAnimDemo.app/TinderSwipeAnimDemo";
 			};
 			name = Release;
 		};
@@ -570,7 +651,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76E39B1E218E550900C36325 /* Build configuration list for PBXProject "TinderSwipeAnim" */ = {
+		76E39B1E218E550900C36325 /* Build configuration list for PBXProject "TinderSwipeAnimDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76E39B4C218E550900C36325 /* Debug */,
@@ -579,7 +660,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76E39B4E218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnim" */ = {
+		76E39B4E218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76E39B4F218E550900C36325 /* Debug */,
@@ -588,7 +669,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76E39B51218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimTests" */ = {
+		76E39B51218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76E39B52218E550900C36325 /* Debug */,
@@ -597,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76E39B54218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimUITests" */ = {
+		76E39B54218E550900C36325 /* Build configuration list for PBXNativeTarget "TinderSwipeAnimDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76E39B55218E550900C36325 /* Debug */,

@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TinderSwipeAnimDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>76E39B22218E550900C36325</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76E39B39218E550900C36325</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76E39B44218E550900C36325</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
