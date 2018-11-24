@@ -1,0 +1,11 @@
+framework module TinderSwipeAnimation {
+  umbrella header "TinderSwipeAnimation.h"
+
+  export *
+  module * { export * }
+}
+
+module TinderSwipeAnimation.Swift {
+    header "TinderSwipeAnimation-Swift.h"
+    requires objc
+}
